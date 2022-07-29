@@ -1,0 +1,94 @@
+.register main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#crea_tu_cuenta {
+    margin: 50px auto 30px;
+    font-size: 18px;
+}
+
+.register_form {
+    width: 420px;
+    margin: auto;
+    background: #24303c;
+    padding: 30px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 0px 0px 5px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #1f53c5;
+}
+
+main ::placeholder {
+    color: #1f53c5;
+}
+
+label {
+    font-size: 18px;
+}
+
+#register_radios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto 0;
+}
+
+#register_checkbox {
+    margin: 10px auto;
+}
+
+.checkboxs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    gap: 25px;
+}
+
+#photo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_registrar, .register_borrar {
+    padding: 8px;
+    background-color: #1f53c5;
+    border: none;
+    color: white;
+    font-family: 'calibri';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+
+    .register_form {
+        width: 70%;
+}
+}
+
+@media (min-width: 1024px) {
+
+    .register_form {
+        width: 50%;
+}
+}
